@@ -23,7 +23,7 @@ if($full){
     echo elgg_view_title(
         elgg_view('output/url', array(
             'href' => $mygroups->getURL(),
-            'text' => $mygroups->name,
+            'text' => $mygroups->title,
             'is_trusted' => true
     )));  
 }
